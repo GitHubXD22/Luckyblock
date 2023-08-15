@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() 
+local Window = Library.CreateLib("PepaHub", "Midnight")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("HereMotherfuc")
+Section:NewButton("luckyblock", "ButtonInfo", function()
+
+game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
